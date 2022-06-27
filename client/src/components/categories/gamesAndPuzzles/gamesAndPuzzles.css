@@ -1,0 +1,45 @@
+.games-content {
+    width: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    
+}
+
+/************* Media queries (medium devices) ************/
+@media screen and (max-width : 1065px) {
+    .home-content {
+        width: 100%;
+    }
+    .books {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        
+    }
+}
+
+@media screen and (max-width : 765px) {
+    .books {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        
+    }
+}
+
+/************* Media queries (small devices) ************/
+@media screen and (max-width : 600px) {
+    .books {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+        
+    }
+}

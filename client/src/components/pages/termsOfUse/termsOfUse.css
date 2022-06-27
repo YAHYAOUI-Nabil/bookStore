@@ -1,0 +1,25 @@
+.terms_of_use {
+    display: flex;
+    justify-content: center;
+}
+
+.terms_of_use-content {
+    width: 45%;
+    margin: 2rem;
+}
+
+/************* Media queries (medium devices) ************/
+@media screen and (max-width : 1024px) {
+    .terms_of_use-content {
+        width: 85%;
+        margin-bottom: 20rem;
+    }
+}
+
+/************* Media queries (small devices) ************/
+@media screen and (max-width : 760px) {
+    .terms_of_use-content {
+        width: 95%;
+        margin-bottom: 2rem;
+    }
+}

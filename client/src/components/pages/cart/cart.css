@@ -1,0 +1,28 @@
+.cart_container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.cart-content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.cart-content h1,.cart-content h4{
+    text-align: center;
+}
+
+/************* Media queries (medium devices) ************/
+@media screen and (max-width : 1024px) {
+    .cart-content{
+        margin-bottom: 25rem;
+    }
+}
+
+/************* Media queries (small devices) ************/
+@media screen and (max-width : 760px) {
+    .cart-content{
+        margin-bottom: 2rem;
+    }
+}

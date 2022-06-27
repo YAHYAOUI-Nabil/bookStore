@@ -1,0 +1,22 @@
+.privacy_notice {
+    display: flex;
+    justify-content: center;
+}
+.privacy_notice-content {
+    width: 50%;
+    margin: 2rem;
+}
+
+/************* Media queries (medium devices) ************/
+@media screen and (max-width : 1024px) {
+    .privacy_notice-content {
+        width: 85%;
+    }
+}
+
+/************* Media queries (small devices) ************/
+@media screen and (max-width : 760px) {
+    .privacy_notice-content {
+        width: 95%;
+    }
+}

@@ -1,0 +1,49 @@
+.one-book_container{
+    display: flex;
+    justify-content: center;
+}
+.one-book-content{
+    width: 65%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+    margin: 2.5rem 0rem;
+}
+.one-book-description{
+    padding-top:1.2rem ;
+}
+
+/************* Media queries (medium devices) ************/
+@media screen and (max-width : 1120px) {
+    .one-book-content{
+        width: 75%;
+        display: grid;
+        grid-template-columns: 40% 50%;
+        gap: 10%;
+    }
+}
+@media screen and (max-width : 980px) {
+    .one-book-content{
+        width: 85%;
+        display: grid;
+        grid-template-columns: 40% 50%;
+        gap: 10%;
+    }
+}
+@media screen and (max-width : 800px) {
+    .one-book-content{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 40% 50%;
+        gap: 10%;
+    }
+}
+/************* Media queries (small devices) ************/
+@media screen and (max-width : 720px) {
+    .one-book-content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
